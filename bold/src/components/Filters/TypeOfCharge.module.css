@@ -1,0 +1,32 @@
+.typeOfCharge{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    color: var(--Azul);
+}
+
+.typeOfCharge label{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.typeOfCharge label input{
+    transform: scale(1.5);
+}
+
+.typeOfCharge div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.typeOfCharge button{
+    padding: 0.7rem 3rem;
+    border-radius: 50rem;
+    background-color: var(--Rojo);
+    color: var(--White);
+    font-weight: 700;
+    font-size: 1rem;
+}

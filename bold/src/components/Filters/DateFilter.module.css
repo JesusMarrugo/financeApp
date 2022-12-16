@@ -1,0 +1,38 @@
+
+.dateFilter{
+    background-color: var(--White);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.5rem;
+    padding: 0.3rem;
+}
+
+.dateFilter_option{
+    background-color: transparent;
+    padding: 0.5rem 0;
+    color: var(--Azul);
+    font-weight: 600;
+    
+}
+
+.dateFilter_option button{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.active{
+    background-color: var(--Background);
+    cursor: pointer;
+    border-radius: 50rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    color: var(--Azul);
+}
+
+.dateFilter_option:hover{
+    background-color: var(--Background);
+    cursor: pointer;
+    border-radius: 50rem;
+    font-weight: 600;
+
+}

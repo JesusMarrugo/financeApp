@@ -1,0 +1,17 @@
+.cellWithIcon{
+    display: flex;
+    align-items: center;
+}
+
+.priceValue{
+    color: var(--Azul);
+}
+
+.deductionText{
+    font-size: 0.8rem;
+    margin: 0.2rem 0;
+}
+
+.deductionValue{
+    color: var(--Rojo);
+}
